@@ -85,3 +85,5 @@ using the `crunch` utility to create a word list for bruteforcing.
 
 `crunch 6 6 abc123 -o test.txt -t a@@bb` use the man crunch for guides.
 
+`aircrackng wpa_handshake-01.cap -w test.txt` to run bruteforce.
+
