@@ -1,6 +1,6 @@
 ---
-description: network attacks
+description: wireless network attacks
 ---
 
-# 1 Network Attacks
+# 1 Wireless Network Attacks
 
