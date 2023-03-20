@@ -1,7 +1,7 @@
 ---
-description: wireless network
+description: various wireless network attacks.
 ---
 
-# 1 Hacking Wireless Network
+# 1 Hacking Wireless Networks
 
-This subpages contains concepts about wireless networks hacking
+This subpages contains various wireless networks attack methods.
