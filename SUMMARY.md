@@ -7,3 +7,4 @@
 * [Post Exploitation](post-exploitation/README.md)
   * [Information Gathering](post-exploitation/information-gathering/README.md)
     * [Info Gathering with netdiscover](post-exploitation/information-gathering/info-gathering-with-netdiscover.md)
+    * [Info Gathering with Nmap](post-exploitation/information-gathering/info-gathering-with-nmap.md)
