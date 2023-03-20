@@ -5,7 +5,7 @@ description: >-
   then a wireless card that acts as an AP.
 ---
 
-# Honey Pot (fake access-point)
+# 2⃣ Honey Pot (fake access-point)
 
 ### Using a tool called Mana-Toolkit to create the fake AP.
 
