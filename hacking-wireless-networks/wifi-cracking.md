@@ -6,9 +6,7 @@ description: breaking wep, wpa, wpa2 ectc.
 
 ### wep hacking
 
-{% hint style="info" %}
-Note: this methods works on a busy network where the  "#Data" column value increases at a very fast rate.
-{% endhint %}
+> Note: this methods works on a busy network where the  "#Data" column value increases at a very fast rate.
 
 1. we have to capture a large number of packets for this to work, using the airodump-ng utility.
 
@@ -24,9 +22,11 @@ aircrack wep_capture.cap
 
 3. key found in the `KEY FOUND! [22:22:22:22:22]` remove the columns, then use the password to connect to the wep network.
 
-{% hint style="info" %}
-In a network thats not busy: you can force the AP to generate new packets new IVs.
-{% endhint %}
+> In a network thats not busy: you can force the AP to generate new packets new IVs.
+
+
+
+
 
 **Solution:** Associate with the AP before launching the attack.
 
