@@ -8,5 +8,5 @@
   * [Information Gathering](post-exploitation/information-gathering/README.md)
     * [Info Gathering with netdiscover](post-exploitation/information-gathering/info-gathering-with-netdiscover.md)
     * [Info Gathering with Nmap](post-exploitation/information-gathering/info-gathering-with-nmap.md)
-* [MITM Attacks](mitm-attacks/README.md)
-  * [ARP SPOOFING](mitm-attacks/arp-spoofing.md)
+  * [arp spoofing](post-exploitation/arp-spoofing.md)
+  * [Untitled](post-exploitation/untitled.md)
