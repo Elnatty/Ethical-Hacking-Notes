@@ -24,7 +24,7 @@ At this juncture, our kali pc cant do anything with the traffic by default, so w
 
 `echo 1 > /proc/sys/net/ipv4/ip_forward` cmd to enable port forwarding in kali.
 
-After enabling Port-Forwarding on the Kali PC, all packets coming from the victim pc passes through the kali, then the kali forwards all request packets to the router/AP, then the get the response back and forward it to the victim, making our kali in control of the whole session.
+After enabling Port-Forwarding on the Kali PC, all packets coming from the victim pc passes through the kali, then the kali forwards all request packets to the router/AP, then the get the response back and forward it to the victim, making our kali in control of the whole session, we can inject code into the victim browser, steal usernames, passwords, replace downloaded files with Trojans, etc.
 
 
 
