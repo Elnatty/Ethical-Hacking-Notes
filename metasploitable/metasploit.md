@@ -6,7 +6,7 @@ description: exploiting vulnerabilities
 
 Load the metasploit framework using `msfconsole`
 
-### exploiting open port 21 in metasploitable using metasploit
+## Exploiting open port 21 in metasploitable using metasploit
 
 we search the port 21 vulnerability on google, stumbled on rapid7 (metasploit) website and get a guide to perform this attack.
 
@@ -25,9 +25,11 @@ after setting the RHOST and RPORT, type `exploit` to execute the attack, we now 
 
 <figure><img src="../.gitbook/assets/Screenshot from 2023-03-22 03-01-19.png" alt=""><figcaption><p><code>exploit</code></p></figcaption></figure>
 
+## Exploiting open port 139 in metasploitable using metasploit
 
+`use exploit/multi/samba/usermap_script`
 
-
+same method as with port 21.
 
 
 
