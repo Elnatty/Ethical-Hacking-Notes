@@ -4,6 +4,8 @@ description: metasploit basics
 
 # Metasploit Intro
 
+For more info on kali metasploit framework: [https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/](https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/)
+
 `msfconsole` launch the metasploit framework.
 
 ### Metasploit has 6 types of modules:
@@ -44,6 +46,36 @@ description: metasploit basics
 `back` takes you a step back just like the `cd ..`
 
 `exit` to exit the msfconsole framework.
+
+
+
+### Location of the Metasploit Modules;
+
+metasploit files are located at the: `cd usr/share/metasploit-framework/modules`
+
+1. `/modules/exploits` contains exploits available for various OS's (linux, windows, apple, android, etc.
+2. `/modules/payloads` payload are files left on the exploited system. they give the attacker access or control over the system.
+
+* `/payloads/singles` these are small pieces of codes that are designed to take one single actions / attacks.
+* `/payloads/stagers` are used for creating a  communication btw the attacker and target, which can be further used to deliver another payload.
+* `/payload/stages` are very very large payloads that can give the attacker a very very good control over the target eg; meterpreter instances or vnc connections.
+
+3. `/modules/auxillary` gives the attacker unique types of attacks such as; DOS, fuzz, vuln scanner functionalities etc. They allow for scanning a target system for vulnerabilities and to perform DOS attacks.
+4. `/modules/encoders` are used to re-encode payloads and exploits, evasion techniques / getting past antivirus systems
+5. `/modules/nops` (no operation) this causes the cpu to do nothing for an entire clock circle, it allows the attacker run a specific code/file after exploiting the buffer overflow.
+6. `/modules/post` for post exploitation attacks.
+
+
+
+
+
+### When you successfully gain access into say a windows.
+
+The `meterpreter >` interactive shellis loaded.
+
+You can use cmds like: `getuid` to get server info.
+
+You can also use the `shell` cmd to launch the default windows cmd prompt.
 
 
 

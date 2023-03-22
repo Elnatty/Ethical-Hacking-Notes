@@ -2,7 +2,7 @@
 description: exploiting vulnerabilities
 ---
 
-# Metasploit
+# Metasploit usage 1
 
 Load the metasploit framework using `msfconsole`
 

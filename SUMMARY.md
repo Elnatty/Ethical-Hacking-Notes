@@ -11,4 +11,5 @@
 * [Metasploitable](metasploitable/README.md)
   * [Information Gathering](metasploitable/information-gathering.md)
 * [Metasploit Intro](metasploit-intro/README.md)
-  * [Metasploit usage](metasploit-intro/metasploit-usage.md)
+  * [Info Gathering with Metasploit](metasploit-intro/info-gathering-with-metasploit.md)
+  * [Metasploit usage 1](metasploit-intro/metasploit-usage-1.md)
