@@ -12,6 +12,8 @@ in the `msf >` console we can perform an nmap scan, `nmap -sT 192.168.81.132` th
 
 #### We can search for running ssh-version on the target;
 
+example - `ssh_version`, `ftp_version` etc.
+
 `search ssh_version` allows you detect the ssh versions running on a target.
 
 `show options` show list of options available for modification.
@@ -23,8 +25,6 @@ in the `msf >` console we can perform an nmap scan, `nmap -sT 192.168.81.132` th
 We can us the information to know the current open ssh version running on the victim machine then search for a vulnerability online.
 
 
-
-n
 
 
 
