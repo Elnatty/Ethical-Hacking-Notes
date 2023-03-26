@@ -99,6 +99,10 @@ Then type `sessions` to view minimised sessions.
 > * `shell` - takes you to the default windows cmd prompt command line.
 > * `exit` - go back to the meterpreter session.
 
+### Search for files in meterpreter sessions:
+
+`search -f flags.txt` - searches the system for the file flags.txt
+
 
 
 
