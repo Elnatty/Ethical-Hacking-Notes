@@ -2,7 +2,7 @@
 description: metasploit basics
 ---
 
-# Metasploit Intro
+# Metasploit
 
 For more info on kali metasploit framework: [https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/](https://www.kali.org/docs/tools/starting-metasploit-framework-in-kali/)
 
@@ -76,6 +76,28 @@ The `meterpreter >` interactive shellis loaded.
 You can use cmds like: `getuid` to get server info.
 
 You can also use the `shell` cmd to launch the default windows cmd prompt.
+
+You can minimise your current session with `ctr+z`
+
+Then type `sessions` to view minimised sessions.
+
+### How to upgrade shell to meterpreter.
+
+`search shell_to` search for the shell to meterpreter exploit in msfconsole.
+
+`show options` - show the options available for modification.
+
+`set SESSION 1` - the `1` denotes the initial default meterpreter session you were in before. So you have to set the SESSION value to its number, in this case 1.
+
+> So thats how to upgrade a cmd shell to a meterpreter shell.
+>
+> `sessions 1` switches you back into your upgraded shell now.
+>
+> ### CMDS you can you to verify:
+>
+> * `sysinfo` - view sys info details.
+> * `shell` - takes you to the default windows cmd prompt command line.
+> * `exit` - go back to the meterpreter session.
 
 
 
