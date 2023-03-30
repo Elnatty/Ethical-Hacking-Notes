@@ -11,5 +11,4 @@
 * [Metasploit](metasploit/README.md)
   * [Info Gathering with Metasploit](metasploit/info-gathering-with-metasploit.md)
   * [Exploitation](metasploit/exploitation.md)
-  * [Untitled](metasploit/untitled.md)
 * [Wireshark Mindmap](wireshark-mindmap.md)
