@@ -67,8 +67,6 @@ metasploit files are located at the: `cd usr/share/metasploit-framework/modules`
 
 
 
-
-
 ### When you successfully gain access into say a windows.
 
 The `meterpreter >` interactive shellis loaded.
@@ -103,7 +101,9 @@ Then type `sessions` to view minimised sessions.
 
 `search -f flags.txt` - searches the system for the file flags.txt
 
+### Some meterpreter cmds
 
+`sessions -K` - kill all sessions.
 
 
 
