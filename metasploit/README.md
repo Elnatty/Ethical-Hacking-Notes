@@ -105,5 +105,7 @@ Then type `sessions` to view minimised sessions.
 
 `sessions -K` - kill all sessions.
 
+`pgrep service_name` - this searchs for any running process/service on the target PC and returns the PID.
+
 
 

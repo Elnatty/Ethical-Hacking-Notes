@@ -11,4 +11,5 @@
 * [Metasploit](metasploit/README.md)
   * [Info Gathering with Metasploit](metasploit/info-gathering-with-metasploit.md)
   * [Exploitation](metasploit/exploitation.md)
+  * [RC file](metasploit/rc-file.md)
 * [Wireshark Mindmap](wireshark-mindmap.md)
